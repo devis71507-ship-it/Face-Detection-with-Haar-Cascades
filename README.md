@@ -55,9 +55,9 @@ iv) Perform face detection with label in real-time video from webcam.
 - Step 5: Exit loop and close windows when ESC key (key code 27) is pressed  
 - Step 6: Release video capture and destroy all OpenCV windows
 
-## PROGRAM
-```
+## PROGRAM 
 # I) ROI Segmentation in an Image using Bitwise AND
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -101,8 +101,9 @@ plt.show()
 
 <img width="281" height="322" alt="image" src="https://github.com/user-attachments/assets/d85cab10-b2ff-44c0-8190-08a08c55bd08" />
 
-```
 # II) Handwriting Detection in an Image
+
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -153,8 +154,10 @@ plt.axis('off')
 
 <img width="462" height="206" alt="image" src="https://github.com/user-attachments/assets/f23627a2-d0d8-436c-b8b6-5d5955b61632" />
 
-```
+
 # III) Object Detection with Labels in an Image using MobileNet-SSD
+
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
